@@ -38,4 +38,4 @@
 **Newly added baselines.** We will add them to the leaderboard after a comprehensive evaluation.
   - [x] **MultiPatchFormer** - A multiscale model for multivariate time series forecasting [[Scientific Reports 2025]](https://www.nature.com/articles/s41598-024-82417-4) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/MultiPatchFormer.py) -->
 ## Contact
-In case of any questions, bugs, suggestions or improvements, please feel free to drop me at `xinwu5386@gmail.com` or open an issue.
+In case of any questions, bugs, suggestions or improvements, please feel free to drop me at xinwu5386@gmail.com or open an issue.
