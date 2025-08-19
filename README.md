@@ -4,8 +4,6 @@
 
 > **Tagline:** Train, compress, and deploy time‑series models that meet real‑world **latency/energy/memory** constraints—without sacrificing accuracy.
 
----
-
 <!-- :triangular_fag_on_post:**News** (2024.10) We have included [[TimeXer]](https://arxiv.org/abs/2402.19072), which defined a practical forecasting paradigm: Forecasting with Exogenous Variables. Considering both practicability and computation efficiency, we believe the new forecasting paradigm defined in TimeXer can be the "right" task for future research. -->
 
 ## Why EITSLib?
@@ -14,15 +12,12 @@
 * **Task‑centric**: Unified APIs for **forecasting, anomaly detection, classification, and imputation**.
 * **Production‑aware**: Built‑in profiling, compression, and portable export targets (ONNX/TFLite/WASM).
 
----
 
 ## Who is it for?
 
 * Researchers prototyping new architectures for time series under edge constraints.
 * Engineers building on‑device analytics for sensors, wearables, smart home/industry, robotics.
 * Students needing a clean reference for end‑to‑end TS modeling from **data → training → compression → deployment**.
-
----
 
 ## What we provide
 
@@ -34,11 +29,10 @@
 * **Profiling & Evaluation**: FLOPs/params, CPU/ARM latency estimation, memory footprint, online metrics (delay‑aware MAE/MSE, F1 for anomalies, AUROC/PRC).
 * **Deployment Paths**: Export to **ONNX**, **TFLite**, and **WebAssembly**; helper stubs for microcontroller integration.
 * **Federated/Continual Options**: Simple **FedAvg** hooks, replay buffers, and drift detectors for non‑stationary streams.
-* **Reproducible Recipes**: Reference configs and scripts for common datasets (ETT, UCR, M4, NAB, Electricity, Traffic).\*
+* **Reproducible Recipes**: Reference configs and scripts for common datasets (ETT, UCR, M4, NAB, Electricity, Traffic).
 
-> \*Dataset names are provided for convenience—loaders are implemented when licensing allows; otherwise helper scripts are included.
+> Dataset names are provided for convenience—loaders are implemented when licensing allows; otherwise helper scripts are included.
 
----
 <!-- See our latest paper [[TimesNet]](https://arxiv.org/abs/2210.02186) for the comprehensive benchmark. We will release a real-time updated online version soon.
 
 **Newly added baselines.** We will add them to the leaderboard after a comprehensive evaluation.
